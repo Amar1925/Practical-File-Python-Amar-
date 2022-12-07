@@ -1,13 +1,12 @@
-a=[[2,5,7], 
-    [3,4,5]]
-print(a)
-print(a[1][0])
-result = [[0,0],
-         [0,0],
-         [0,0]]
-for i in range(len(a)):
-   for j in range(len(a[0])):
-       result[j][i] = a[i][j]
-
-for r in result:
-   print(r)
+import numpy as np
+ 
+# input two matrices
+mat1 = ([1, 6, 5],[3 ,4, 8],[2, 12, 3])
+mat2 = ([3, 4, 6],[5, 6, 7],[6,56, 7])
+ 
+# This will return dot product
+res = np.dot(mat1,mat2)
+ 
+ 
+# print resulted matrix
+print(res)
