@@ -1,2 +1,4 @@
-# Practical-File-Python-Amar-
-All practicals code from 1-17 saved in this repository. Ramanujan college
+# Practical File Intro
+Hello, welcome to my repository.
+In this repository, I have written practicals 1-17.
+Enjoy
